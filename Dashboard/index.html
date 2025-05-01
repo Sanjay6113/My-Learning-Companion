@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Companion - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Learning Companion</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <div class="search-sort">
+        <input type="text" id="searchBox" placeholder="Search by title or date...">
+        <select id="sortOptions">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="alpha">Alphabetical</option>
+        </select>
+    </div>
+
+    <div id="contentList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
